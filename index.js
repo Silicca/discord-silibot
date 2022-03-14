@@ -2,7 +2,7 @@
 const fs = require('node:fs');
 const discord = require('discord.js');
 const config = require('./config.json');
-const token = `${config.token}`;
+const token = process.env.TOKEN;
 
 // Create a new client instance
 const client = new discord.Client({ intents: [
