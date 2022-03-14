@@ -1,7 +1,7 @@
 // Require the necessary discord.js classes
 const fs = require('node:fs');
 const discord = require('discord.js');
-const config = require('./config.json');
+//const config = require('./config.json'); use this for dev only
 const token = process.env.TOKEN;
 
 // Create a new client instance
